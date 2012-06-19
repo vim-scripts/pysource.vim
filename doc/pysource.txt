@@ -1,0 +1,55 @@
+*pysource.txt*  For Vim version 7.3     Last Change: 2012 June 11
+==============================================================================
+CONTENTS                                                     *pysource-contents*
+
+    1. Introduction ............................... |pysource-introduction|
+    2. Mappings ................................... |pysource-mappings|
+    3. Functions .................................. |pysource-functions|
+    4. Contributing ............................... |pysource-contributing|
+    5. Thanks ..................................... |pysource-thanks|
+
+==============================================================================
+1. Introduction                                         *pysource-introduction*
+
+Pysource.vim is a way to open up python source using python's |inspect| and
+using the |__import__| modules. It implements three |nmap|s. One opens up
+in a new tab, another in a new split, and lastly in a vertical split.
+
+To use the script just put your cursor over the line you want to grab and
+perform the mapping. It will bring it up according to the mapping you used.
+
+==============================================================================
+2. Mappings                                                 *pysource-mappings*
+
+Pysource creates two new mappings when in python files. They both start with
+the letter s and use |<leader>| to create them.
+
+        * *<leader>sft* will find the source and open in a new tab
+        * *<leader>sfs* will open the source in a new split
+        * *<leader>sfv* will open the source in a new vertical split
+
+These are just the default mappings. If you want to use something else you
+can feel free to call the function.
+
+==============================================================================
+3. Function(s)                                              *pysource-functions*
+
+Pysource declares one function. It takes one arguments. Which are tab,
+vsplit, and split.
+
+        * *python#Source()*
+
+==============================================================================
+4. Contributing                                          *pysource-contributing*
+
+To contribute feel free to check out the project on github and do a pull
+request. The repo is at https://github.com/cwood/pysource.vim
+
+==============================================================================
+5. Thanks                                                     *pysource-thanks*
+
+Thanks for using the plugin! Feel free to email me with issues you have or
+any great ideas you want the script to do! I would love to hear your ideas
+and thoughts.
+
+vim:tw=78:sw=4:ts=8:expandtab:ft=help:norl:

@@ -1,0 +1,5 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4105
+
+Creates mappings to view python source easily. If your cursor is over the from module import class it will open up the module in a new tab, split or vsplit. 
+
+Feel free to report issues here: https://github.com/cwood/pysource.vim or email me.
